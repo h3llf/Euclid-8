@@ -1,0 +1,84 @@
+(footprint "HexTestPoint"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1e925638-a241-4ec4-8e4e-fac2e1182cde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HexTestPoint"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3d85e61-3e2d-42a6-b39a-436aa18d9478")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf81adbc-460d-4045-ba37-1948ac1aeb73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfb783dc-884c-48a3-9133-6c6949dba1d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 0.5 -0.866025) (xy 1 0) (xy 0.5 0.866025) (xy -0.5 0.866025) (xy -1 0) (xy -0.5 -0.866025)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2e5df9e9-3b2f-4238-b693-b3061c3bdef4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.53205 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e3a94112-307d-4e54-92e2-f8b727403c8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

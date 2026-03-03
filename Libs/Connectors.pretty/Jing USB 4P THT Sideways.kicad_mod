@@ -1,0 +1,167 @@
+(footprint "Jing USB 4P THT Sideways"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4ce5bb95-8822-4c9f-83ac-4a85272e60d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Jing USB 4P THT Sideways"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "02303f5b-b4b7-4fb1-a66a-d0e51a20eacf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ce7044c-93bc-4dd3-800f-6899ced974e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a6fd447-e4b7-4229-af3b-6293791e9c0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.55 -14.4)
+		(end 3.55 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d66ddb5d-a7c6-4e3c-b724-b5b822843457")
+	)
+	(fp_rect
+		(start -4.3 -14.4)
+		(end 4.3 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9c563422-757b-4a76-8a6f-89de4e05c468")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "936974eb-e3cd-4d4d-a5ed-eb9de09523f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -3)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8e459a2e-f2bb-4ca2-80f1-2758a7ee8512")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -1)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8b618f9c-d366-4d94-b392-eea9437bad3c")
+	)
+	(pad "3" thru_hole circle
+		(at 0 1)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "192982c9-b023-4d50-8d24-3a53130d448b")
+	)
+	(pad "4" thru_hole circle
+		(at 0 3)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b99d1b6-ce06-4cd0-b563-a1f6ec809cf7")
+	)
+	(pad "5" thru_hole circle
+		(at -2.75 -3.5)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "93de5c6f-423d-48d8-9504-b68d52ef67a3")
+	)
+	(pad "5" thru_hole circle
+		(at -2.75 3.5)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ed95bf05-ec35-42f2-a6d5-0862c9dafea6")
+	)
+	(pad "5" thru_hole circle
+		(at 2.75 -3.5)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "679daa57-8b02-46d5-9578-5fcf3e218359")
+	)
+	(pad "5" thru_hole circle
+		(at 2.75 3.5)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2bc7cda7-2ecf-44b0-a4fb-4715f1e4ef07")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../Libs/Connectors.pretty/USB-A1SSW6--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 5.6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

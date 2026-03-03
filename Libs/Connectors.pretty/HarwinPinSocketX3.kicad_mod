@@ -1,0 +1,152 @@
+(footprint "HarwinPinSocketX3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1 7.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3dcf92ab-537d-474e-aa0a-7a85408dfe47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HarwinPinSocketX3"
+		(at 0 11.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8fcd470c-f442-41db-bd6c-6ef8a4dcb740")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66db6809-f132-4d33-8f8a-d6819be0bb5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f381a65-4d8d-44e8-b4f2-dffd975cabf2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.8 -6.9)
+		(end 1.8 6.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fd422303-a617-4b98-822c-d0ec2913e439")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 13.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dda970bf-ae2d-4db0-9172-03e07ac5de41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -5.08)
+		(size 3.5 3.5)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "6d8a1015-5173-43c5-9c66-36b954551140")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 3.5 3.5)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "1feee7ec-fc91-4b3b-bbfe-b79baaa2a6f1")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08)
+		(size 3.5 3.5)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "acb71e60-5d54-4291-8041-78e640c6d777")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../Libs/Connectors.pretty/H3165-01.stp"
+		(offset
+			(xyz 0 0 0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${KIPRJMOD}/../Libs/Connectors.pretty/H3165-01.stp"
+		(offset
+			(xyz 0 5.08 0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${KIPRJMOD}/../Libs/Connectors.pretty/H3165-01.stp"
+		(offset
+			(xyz 0 -5.08 0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${KIPRJMOD}/../Libs/Connectors.pretty/D3086-99.stp"
+		(offset
+			(xyz 1.6 -2.5 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

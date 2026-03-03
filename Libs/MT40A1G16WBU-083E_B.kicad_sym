@@ -1,0 +1,814 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MT40A1G16WBU-083E_B" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -38.2138 71.9694 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "MT40A1G16WBU-083E_B" (id 1) (at -1.27428 71.9965 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "MT40A1G16WBU-083E_B:BGA96C80P16X9_1400X800X110N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Micron Technology Inc." (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            SDRAM - DDR4 Memory IC 16Gb (1G x 16) Parallel 1.2 GHz 96-FBGA (8x14)\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "TFBGA-96 Micron Technology" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/MT40A1G16WBU-083E:B/Micron/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/MT40A1G16WBU-083E:B/Micron/view-part/?ref=snap" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "MT40A1G16WBU-083E:B" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Micron" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "MT40A1G16WBU-083E_B_0_0"
+      (rectangle (start -38.1 -71.12) (end 38.1 71.12)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin power_in line (at -43.18 66.04 0) (length 5.08)
+        (name "VDD1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 63.5 0) (length 5.08)
+        (name "VDD2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 60.96 0) (length 5.08)
+        (name "VDD3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 58.42 0) (length 5.08)
+        (name "VDD4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 55.88 0) (length 5.08)
+        (name "VDD5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 53.34 0) (length 5.08)
+        (name "VDD6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 50.8 0) (length 5.08)
+        (name "VDD7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "L1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 48.26 0) (length 5.08)
+        (name "VDD8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "L9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 45.72 0) (length 5.08)
+        (name "VDD9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "R1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -43.18 43.18 0) (length 5.08)
+        (name "VDD10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "T9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 35.56 0) (length 5.08)
+        (name "BA0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "N2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 33.02 0) (length 5.08)
+        (name "BA1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "N8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 27.94 0) (length 5.08)
+        (name "BG0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "M2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 25.4 0) (length 5.08)
+        (name "BG1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "M9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 20.32 0) (length 5.08)
+        (name "A0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 17.78 0) (length 5.08)
+        (name "A1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 15.24 0) (length 5.08)
+        (name "A2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "R3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 12.7 0) (length 5.08)
+        (name "A3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "N7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 10.16 0) (length 5.08)
+        (name "A4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "N3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 7.62 0) (length 5.08)
+        (name "A5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 5.08 0) (length 5.08)
+        (name "A6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 2.54 0) (length 5.08)
+        (name "A7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "R8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 0.0 0) (length 5.08)
+        (name "A8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "R2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -2.54 0) (length 5.08)
+        (name "A9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "R7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -5.08 0) (length 5.08)
+        (name "A10/AP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "M3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -7.62 0) (length 5.08)
+        (name "A11"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "T2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -10.16 0) (length 5.08)
+        (name "A12/BC_N"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "M7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -12.7 0) (length 5.08)
+        (name "A13"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "T8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -17.78 0) (length 5.08)
+        (name "WE_N/A14"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "L2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -20.32 0) (length 5.08)
+        (name "CAS_N/A15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "M8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -22.86 0) (length 5.08)
+        (name "RAS_N/A16"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "L8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -27.94 0) (length 5.08)
+        (name "CKE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -33.02 0) (length 5.08)
+        (name "CK_T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -35.56 0) (length 5.08)
+        (name "CK_C"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -45.72 0) (length 5.08)
+        (name "ACT_N"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "L3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -50.8 0) (length 5.08)
+        (name "PAR"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "T3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -55.88 0) (length 5.08)
+        (name "ODT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -60.96 0) (length 5.08)
+        (name "RESET_N"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -66.04 0) (length 5.08)
+        (name "TEN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "N9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -43.18 -40.64 0) (length 5.08)
+        (name "CS_N"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "L7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -22.86 -76.2 90.0) (length 5.08)
+        (name "VSSQ1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -20.32 -76.2 90.0) (length 5.08)
+        (name "VSSQ2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -17.78 -76.2 90.0) (length 5.08)
+        (name "VSSQ3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 -76.2 90.0) (length 5.08)
+        (name "VSSQ4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -76.2 90.0) (length 5.08)
+        (name "VSSQ5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -10.16 -76.2 90.0) (length 5.08)
+        (name "VSSQ6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -7.62 -76.2 90.0) (length 5.08)
+        (name "VSSQ7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -5.08 -76.2 90.0) (length 5.08)
+        (name "VSSQ8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -2.54 -76.2 90.0) (length 5.08)
+        (name "VSSQ9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 0.0 -76.2 90.0) (length 5.08)
+        (name "VSSQ10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 5.08 -76.2 90.0) (length 5.08)
+        (name "VSS1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 7.62 -76.2 90.0) (length 5.08)
+        (name "VSS2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 10.16 -76.2 90.0) (length 5.08)
+        (name "VSS3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 12.7 -76.2 90.0) (length 5.08)
+        (name "VSS4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 -76.2 90.0) (length 5.08)
+        (name "VSS5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -76.2 90.0) (length 5.08)
+        (name "VSS6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "N1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -76.2 90.0) (length 5.08)
+        (name "VSS7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "T1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -76.2 90.0) (length 5.08)
+        (name "VSS8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "T7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 63.5 180.0) (length 5.08)
+        (name "VDDQ1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 60.96 180.0) (length 5.08)
+        (name "VDDQ2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 58.42 180.0) (length 5.08)
+        (name "VDDQ3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 55.88 180.0) (length 5.08)
+        (name "VDDQ4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 53.34 180.0) (length 5.08)
+        (name "VDDQ5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 50.8 180.0) (length 5.08)
+        (name "VDDQ6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 48.26 180.0) (length 5.08)
+        (name "VDDQ7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 45.72 180.0) (length 5.08)
+        (name "VDDQ8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 43.18 180.0) (length 5.08)
+        (name "VDDQ9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 40.64 180.0) (length 5.08)
+        (name "VDDQ10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 30.48 180.0) (length 5.08)
+        (name "VPP1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 27.94 180.0) (length 5.08)
+        (name "VPP2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "R9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 43.18 17.78 180.0) (length 5.08)
+        (name "VREFCA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "M1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 10.16 180.0) (length 5.08)
+        (name "LDQ0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 7.62 180.0) (length 5.08)
+        (name "LDQ1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 5.08 180.0) (length 5.08)
+        (name "LDQ2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 2.54 180.0) (length 5.08)
+        (name "LDQ3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 0.0 180.0) (length 5.08)
+        (name "LDQ4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 -2.54 180.0) (length 5.08)
+        (name "LDQ5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 -5.08 180.0) (length 5.08)
+        (name "LDQ6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 -7.62 180.0) (length 5.08)
+        (name "LDQ7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 -12.7 180.0) (length 5.08)
+        (name "UDQ0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 -15.24 180.0) (length 5.08)
+        (name "UDQ1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 -17.78 180.0) (length 5.08)
+        (name "UDQ2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 -20.32 180.0) (length 5.08)
+        (name "UDQ3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 -22.86 180.0) (length 5.08)
+        (name "UDQ4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 -25.4 180.0) (length 5.08)
+        (name "UDQ5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 -27.94 180.0) (length 5.08)
+        (name "UDQ6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 43.18 -30.48 180.0) (length 5.08)
+        (name "UDQ7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 -35.56 180.0) (length 5.08)
+        (name "LDQS_T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 -38.1 180.0) (length 5.08)
+        (name "LDQS_C"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 -43.18 180.0) (length 5.08)
+        (name "UDQS_T"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 -45.72 180.0) (length 5.08)
+        (name "UDQS_C"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 -50.8 180.0) (length 5.08)
+        (name "NF/LDBI_N/LDM_N"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 43.18 -53.34 180.0) (length 5.08)
+        (name "NF/UDBI_N/UDM_N"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 43.18 -58.42 180.0) (length 5.08)
+        (name "ALERT_N"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 43.18 -63.5 180.0) (length 5.08)
+        (name "LZQ"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 43.18 -66.04 180.0) (length 5.08)
+        (name "UZQ"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
