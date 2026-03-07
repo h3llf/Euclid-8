@@ -18822,8 +18822,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "1c5cfa51-65ff-486f-b483-4ef6730af348")
 		(property "Reference" "C32"
 			(at 194.31 265.4299 0)
@@ -19175,8 +19175,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "2d36e3f6-3f04-4303-9a59-7a4d7781482b")
 		(property "Reference" "C27"
 			(at 130.81 265.4299 0)
@@ -19405,8 +19405,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "301959f4-38ec-49b0-b5c3-1c063ea66b4c")
 		(property "Reference" "C103"
 			(at 214.63 97.79 0)
@@ -19635,8 +19635,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "315245ec-960f-4c74-bc7a-06ed851f04d9")
 		(property "Reference" "C34"
 			(at 219.71 265.4299 0)
@@ -19798,8 +19798,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "3806b751-6a81-48a5-8f6e-e7038d8a9673")
 		(property "Reference" "C52"
 			(at 118.11 241.2999 0)
@@ -21704,8 +21704,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "42331f34-e6c7-43ea-84ce-a6528bd931b8")
 		(property "Reference" "C41"
 			(at 245.11 241.2999 0)
@@ -22471,8 +22471,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "4da559d9-1934-4d73-be5e-43486d682cd4")
 		(property "Reference" "C66"
 			(at 231.14 218.4399 0)
@@ -22615,8 +22615,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "52869f8c-4de7-4c43-84b1-ec098af5693a")
 		(property "Reference" "C65"
 			(at 218.44 218.4399 0)
@@ -22692,8 +22692,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "5877f663-4f36-487a-8167-5f8e6cc9abc7")
 		(property "Reference" "C51"
 			(at 105.41 241.2999 0)
@@ -22855,8 +22855,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "5aed1239-99bb-4d9b-a82a-24942e60ff61")
 		(property "Reference" "C26"
 			(at 118.11 265.4299 0)
@@ -22932,8 +22932,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "5b9a390c-f4cb-4163-a37f-1aebe362af3a")
 		(property "Reference" "C50"
 			(at 92.71 241.2999 0)
@@ -23095,8 +23095,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "5cb5c299-81bf-423e-b5f5-8cdea3916b8f")
 		(property "Reference" "C24"
 			(at 92.71 265.4299 0)
@@ -23660,8 +23660,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "69f13e52-b1cb-45f2-ae91-123ec70a7cda")
 		(property "Reference" "C47"
 			(at 64.77 241.3 0)
@@ -23823,8 +23823,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "6bcc877d-b2ba-4f52-a1ae-a05e1faee671")
 		(property "Reference" "C22"
 			(at 64.77 265.43 0)
@@ -24481,8 +24481,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "80d844ca-0251-496f-8c8a-a10eb971a77d")
 		(property "Reference" "C67"
 			(at 243.84 218.4399 0)
@@ -25180,8 +25180,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "99920b71-72e2-4e6f-94c4-d051b37ed768")
 		(property "Reference" "C39"
 			(at 219.71 241.2999 0)
@@ -25400,8 +25400,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "9d7c85b9-8562-4661-8ad1-9a6e042bb5ba")
 		(property "Reference" "C84"
 			(at 214.63 48.26 0)
@@ -27104,8 +27104,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "a9113acc-3c53-47ba-be78-6d0ee369099c")
 		(property "Reference" "C100"
 			(at 214.63 72.39 0)
@@ -27468,8 +27468,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "afa4dd78-93c9-4b6b-ad0d-57d59300d0e5")
 		(property "Reference" "C40"
 			(at 232.41 241.2999 0)
@@ -27862,8 +27862,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "b7029f90-3b12-4b45-b627-9966ed1debf4")
 		(property "Reference" "C35"
 			(at 232.41 265.4299 0)
@@ -28648,8 +28648,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "cda02109-82db-4fa9-9888-d8e885c7fe72")
 		(property "Reference" "C64"
 			(at 205.74 218.4399 0)
@@ -28725,8 +28725,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "cfdcf970-4d0f-4ce3-9d22-14433e0e3ced")
 		(property "Reference" "C33"
 			(at 207.01 265.4299 0)
@@ -28944,73 +28944,6 @@
 			(project "Controller"
 				(path "/2c9e7a41-63e4-4339-89dd-991e772f7a19/25cc9d1f-4661-44d6-b5ea-319405d0978d"
 					(reference "#PWR0303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 172.72 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d64f6af8-081e-420a-ae88-3d1d86f7a7db")
-		(property "Reference" "#PWR0589"
-			(at 172.72 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD_SDIO"
-			(at 175.26 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 172.72 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ff3ebbe-a462-43e7-9982-6a080d7ee1ce")
-		)
-		(instances
-			(project "Controller"
-				(path "/2c9e7a41-63e4-4339-89dd-991e772f7a19/25cc9d1f-4661-44d6-b5ea-319405d0978d"
-					(reference "#PWR0589")
 					(unit 1)
 				)
 			)
@@ -29366,8 +29299,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "dd489c41-cf21-4786-a0e7-a39f5dd17e6b")
 		(property "Reference" "C23"
 			(at 80.01 265.4299 0)
@@ -29673,8 +29606,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "e1be7287-6a5a-452b-afbe-9365c85e23bc")
 		(property "Reference" "C25"
 			(at 105.41 265.4299 0)
@@ -31645,8 +31578,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "f1f462b2-f45f-48e8-958c-7d27ab1e1317")
 		(property "Reference" "C49"
 			(at 80.01 241.2999 0)
@@ -31866,8 +31799,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "f6ba1b22-6e97-45fa-b5eb-e705bc4969ed")
 		(property "Reference" "C68"
 			(at 256.54 218.4399 0)
@@ -31943,8 +31876,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "f6e8527b-42bf-42ea-8f81-336edcc98d77")
 		(property "Reference" "C36"
 			(at 245.11 265.4299 0)

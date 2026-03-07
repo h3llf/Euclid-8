@@ -1575,28 +1575,6 @@
 			)
 		)
 	)
-	(global_label "PMIC_MODE_RESET"
-		(shape input)
-		(at 311.15 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "10950a75-0795-4b43-b6e4-5572f1fd865f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 331.6126 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SOC_CLK"
 		(shape input)
 		(at 80.01 100.33 0)
@@ -1615,134 +1593,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SOC_I2C0_SCL"
-		(shape bidirectional)
-		(at 314.96 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "202ae779-7d1c-46a7-9b7c-5d3f548a98d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.96 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PMIC_RSTOUT_N"
-		(shape input)
-		(at 311.15 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "24a35778-e661-40e9-af3f-71282b37ae2f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 329.0728 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PMIC_INT_N"
-		(shape input)
-		(at 311.15 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3e00e8b5-aa32-4305-81bd-5c257ff6a037")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 324.9 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VSEL_SD"
-		(shape input)
-		(at 311.15 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "72bbc143-3c1a-428f-bee0-1a2759c7928a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 322.0575 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PMIC_MODE_STBY"
-		(shape input)
-		(at 311.15 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "76f7b2e9-033f-46cc-ad0d-e915f3f3a0bc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 330.4032 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SOC_I2C0_SDA"
-		(shape bidirectional)
-		(at 314.96 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fcdb45e5-3380-4220-bbb1-97b1867a3712")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.96 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -3358,8 +3208,8 @@
 		)
 	)
 	(sheet
-		(at 279.4 127)
-		(size 38.1 25.4)
+		(at 280.67 101.6)
+		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3374,7 +3224,7 @@
 		)
 		(uuid "142be8af-8e15-4bb1-b9d1-2e794e65f22f")
 		(property "Sheetname" "SOC_USB"
-			(at 279.4 126.2884 0)
+			(at 280.67 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +3233,7 @@
 			)
 		)
 		(property "Sheetfile" "SOC_USB.kicad_sch"
-			(at 279.4 152.9846 0)
+			(at 280.67 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,7 +3250,7 @@
 		)
 	)
 	(sheet
-		(at 342.9 64.77)
+		(at 344.17 101.6)
 		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3416,7 +3266,7 @@
 		)
 		(uuid "25cc9d1f-4661-44d6-b5ea-319405d0978d")
 		(property "Sheetname" "SOC Power"
-			(at 342.9 64.0584 0)
+			(at 344.17 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +3275,7 @@
 			)
 		)
 		(property "Sheetfile" "SOC_Power.kicad_sch"
-			(at 342.9 94.5646 0)
+			(at 344.17 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +3284,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 342.9 64.77 0)
+			(at 344.17 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3450,7 +3300,7 @@
 		)
 	)
 	(sheet
-		(at 342.9 27.94)
+		(at 344.17 63.5)
 		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3466,7 +3316,7 @@
 		)
 		(uuid "2b3b3ca2-9bcd-4196-8c9e-35d95e6d945f")
 		(property "Sheetname" "SOC_PMIC"
-			(at 342.9 27.2284 0)
+			(at 344.17 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3475,7 +3325,7 @@
 			)
 		)
 		(property "Sheetfile" "SOC_PMIC.kicad_sch"
-			(at 342.9 57.7346 0)
+			(at 344.17 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,8 +3342,8 @@
 		)
 	)
 	(sheet
-		(at 265.43 27.94)
-		(size 38.1 50.8)
+		(at 280.67 63.5)
+		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3508,7 +3358,7 @@
 		)
 		(uuid "3f4ebc9a-4c5b-46a6-8e41-1e17b5232cc3")
 		(property "Sheetname" "SOC_Ethernet"
-			(at 265.43 27.2284 0)
+			(at 280.67 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +3367,7 @@
 			)
 		)
 		(property "Sheetfile" "SOC_Ethernet.kicad_sch"
-			(at 265.43 79.3246 0)
+			(at 280.67 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,8 +3384,8 @@
 		)
 	)
 	(sheet
-		(at 148.59 152.4)
-		(size 38.1 34.29)
+		(at 217.17 63.5)
+		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3550,7 +3400,7 @@
 		)
 		(uuid "4f9a8529-8434-4a63-acea-238523d9a9d8")
 		(property "Sheetname" "GPMC Interface"
-			(at 148.59 151.6884 0)
+			(at 217.17 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +3409,7 @@
 			)
 		)
 		(property "Sheetfile" "GPMC_Interface.kicad_sch"
-			(at 148.59 187.2746 0)
+			(at 217.17 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,8 +3426,8 @@
 		)
 	)
 	(sheet
-		(at 201.93 181.61)
-		(size 44.45 29.21)
+		(at 153.67 63.5)
+		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3592,7 +3442,7 @@
 		)
 		(uuid "5ec1b3c8-40b2-49d0-9ae4-406439f0fd03")
 		(property "Sheetname" "MMC"
-			(at 201.93 180.8984 0)
+			(at 153.67 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,7 +3451,7 @@
 			)
 		)
 		(property "Sheetfile" "MMC.kicad_sch"
-			(at 201.93 211.4046 0)
+			(at 153.67 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,8 +3468,8 @@
 		)
 	)
 	(sheet
-		(at 279.4 165.1)
-		(size 38.1 25.4)
+		(at 280.67 139.7)
+		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3634,7 +3484,7 @@
 		)
 		(uuid "6314d9d9-bf56-456f-978f-8fa96e5a8ad9")
 		(property "Sheetname" "SOC_Video_interface"
-			(at 279.4 164.3884 0)
+			(at 280.67 138.9884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3493,7 @@
 			)
 		)
 		(property "Sheetfile" "SOC_Video_Interface.kicad_sch"
-			(at 279.4 191.0846 0)
+			(at 280.67 169.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3660,7 +3510,7 @@
 		)
 	)
 	(sheet
-		(at 342.9 101.6)
+		(at 153.67 25.4)
 		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3676,7 +3526,7 @@
 		)
 		(uuid "744ffe61-5260-41ff-b05d-255b0f5e8531")
 		(property "Sheetname" "AM6254_DDR4"
-			(at 342.9 100.8884 0)
+			(at 153.67 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3685,7 +3535,7 @@
 			)
 		)
 		(property "Sheetfile" "AM6254_DDR4.kicad_sch"
-			(at 342.9 131.3946 0)
+			(at 153.67 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,7 +3552,7 @@
 		)
 	)
 	(sheet
-		(at 342.9 139.7)
+		(at 217.17 176.53)
 		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3718,7 +3568,7 @@
 		)
 		(uuid "8a35c58a-2566-4a25-91aa-5b11cc20217a")
 		(property "Sheetname" "End_Stops"
-			(at 342.9 138.9884 0)
+			(at 217.17 175.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3727,7 +3577,7 @@
 			)
 		)
 		(property "Sheetfile" "End_Stops.kicad_sch"
-			(at 342.9 169.4946 0)
+			(at 217.17 206.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3744,8 +3594,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 212.09)
-		(size 34.29 50.8)
+		(at 280.67 25.4)
+		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3760,7 +3610,7 @@
 		)
 		(uuid "8b7f2841-3ce4-46b7-892d-e81bfc9233c4")
 		(property "Sheetname" "SOC_Ethernet2"
-			(at 139.7 211.3784 0)
+			(at 280.67 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +3619,7 @@
 			)
 		)
 		(property "Sheetfile" "SOC_Ethernet2.kicad_sch"
-			(at 139.7 263.4746 0)
+			(at 280.67 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,8 +3636,8 @@
 		)
 	)
 	(sheet
-		(at 138.43 34.29)
-		(size 39.37 29.21)
+		(at 217.17 139.7)
+		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3802,7 +3652,7 @@
 		)
 		(uuid "987ee23e-f89e-438d-a1ff-3ef0366dbccd")
 		(property "Sheetname" "Fans"
-			(at 138.43 33.5784 0)
+			(at 217.17 138.9884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,7 +3661,7 @@
 			)
 		)
 		(property "Sheetfile" "Fans.kicad_sch"
-			(at 138.43 64.0846 0)
+			(at 217.17 169.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,8 +3678,8 @@
 		)
 	)
 	(sheet
-		(at 201.93 218.44)
-		(size 44.45 29.21)
+		(at 280.67 177.8)
+		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3844,7 +3694,7 @@
 		)
 		(uuid "a3a44627-3fb9-46dd-b4ca-b557aa71aefc")
 		(property "Sheetname" "CAN"
-			(at 201.93 217.7284 0)
+			(at 280.67 177.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,7 +3703,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
-			(at 201.93 248.2346 0)
+			(at 280.67 207.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +3720,7 @@
 		)
 	)
 	(sheet
-		(at 342.9 177.8)
+		(at 344.17 177.8)
 		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3886,7 +3736,7 @@
 		)
 		(uuid "bab8ea7a-faa6-4627-abdb-12459ae775c9")
 		(property "Sheetname" "ADC"
-			(at 342.9 177.0884 0)
+			(at 344.17 177.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,7 +3745,7 @@
 			)
 		)
 		(property "Sheetfile" "ADC.kicad_sch"
-			(at 342.9 207.5946 0)
+			(at 344.17 207.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,8 +3762,8 @@
 		)
 	)
 	(sheet
-		(at 279.4 203.2)
-		(size 38.1 25.4)
+		(at 344.17 25.4)
+		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3928,7 +3778,7 @@
 		)
 		(uuid "be892fd5-6ed8-4ba2-a1e8-7916f9f879fe")
 		(property "Sheetname" "Board_Power"
-			(at 279.4 202.4884 0)
+			(at 344.17 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3937,7 +3787,7 @@
 			)
 		)
 		(property "Sheetfile" "Board_Power.kicad_sch"
-			(at 279.4 229.1846 0)
+			(at 344.17 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,8 +3804,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 77.47)
-		(size 38.1 35.56)
+		(at 217.17 25.4)
+		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3970,7 +3820,7 @@
 		)
 		(uuid "e1b20745-ace1-40d3-964e-6c87638e05a1")
 		(property "Sheetname" "Drivers"
-			(at 139.7 76.7584 0)
+			(at 217.17 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +3829,7 @@
 			)
 		)
 		(property "Sheetfile" "Drivers.kicad_sch"
-			(at 139.7 113.6146 0)
+			(at 217.17 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,8 +3846,8 @@
 		)
 	)
 	(sheet
-		(at 210.82 41.91)
-		(size 41.91 44.45)
+		(at 153.67 101.6)
+		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4012,7 +3862,7 @@
 		)
 		(uuid "ec8fe155-2a8f-4b9f-9102-90f778ef32ea")
 		(property "Sheetname" "M.2_KeyE_WIFI"
-			(at 210.82 41.1984 0)
+			(at 153.67 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +3871,7 @@
 			)
 		)
 		(property "Sheetfile" "M.2_KeyE_WIFI.kicad_sch"
-			(at 210.82 86.9446 0)
+			(at 153.67 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,8 +3888,8 @@
 		)
 	)
 	(sheet
-		(at 279.4 92.71)
-		(size 38.1 25.4)
+		(at 217.17 101.6)
+		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4054,7 +3904,7 @@
 		)
 		(uuid "ee79985e-f065-48f8-87d3-ac6f4713e030")
 		(property "Sheetname" "IO Expansion"
-			(at 279.4 91.9984 0)
+			(at 217.17 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4063,7 +3913,7 @@
 			)
 		)
 		(property "Sheetfile" "IO_Expansion.kicad_sch"
-			(at 279.4 118.6946 0)
+			(at 217.17 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4080,8 +3930,8 @@
 		)
 	)
 	(sheet
-		(at 203.2 142.24)
-		(size 41.91 29.21)
+		(at 344.17 139.7)
+		(size 49.53 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4096,7 +3946,7 @@
 		)
 		(uuid "f415ea9f-190a-43c5-8362-2826d1f9fd97")
 		(property "Sheetname" "Heaters"
-			(at 203.2 141.5284 0)
+			(at 344.17 138.9884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +3955,7 @@
 			)
 		)
 		(property "Sheetfile" "Heaters.kicad_sch"
-			(at 203.2 172.0346 0)
+			(at 344.17 169.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)

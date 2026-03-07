@@ -11307,8 +11307,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2b56a3b0-7a58-40b6-9cdd-21da92e0c836")
 		(property "Reference" "TP7"
@@ -12360,8 +12360,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "404fc25a-1376-419a-990e-b5be3600b634")
 		(property "Reference" "TP8"
@@ -12636,8 +12636,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4838e523-e8e3-46d5-8137-e722359f70a5")
 		(property "Reference" "TP6"
