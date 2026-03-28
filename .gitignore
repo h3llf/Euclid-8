@@ -4,6 +4,7 @@
 # HW REF
 Datasheets/
 HW REF/
+.history/
 
 # Temporary files
 *.000
