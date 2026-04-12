@@ -13322,6 +13322,10 @@
 		(uuid "fa0a445c-73f8-463c-82c6-112dd3ea5724")
 	)
 	(no_connect
+		(at 274.32 194.31)
+		(uuid "09d30249-156a-41b3-bf24-fcb40a94bfba")
+	)
+	(no_connect
 		(at 64.77 134.62)
 		(uuid "24c349b4-240d-483f-80c0-665b8f5ff098")
 	)
@@ -15077,16 +15081,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 191.77) (xy 274.32 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "961d255a-51ea-436e-bd52-499f2991fd14")
-	)
-	(wire
-		(pts
 			(xy 72.39 172.72) (xy 72.39 173.99)
 		)
 		(stroke
@@ -15964,6 +15958,16 @@
 			(type default)
 		)
 		(uuid "ea2f11ff-cfe7-4965-8ed6-06edcfab5cfd")
+	)
+	(wire
+		(pts
+			(xy 274.32 194.31) (xy 274.32 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece5687c-c951-49d5-90fd-9f0fc3fce70b")
 	)
 	(wire
 		(pts
@@ -24059,84 +24063,6 @@
 			(project "Controller"
 				(path "/2c9e7a41-63e4-4339-89dd-991e772f7a19/6314d9d9-bf56-456f-978f-8fa96e5a8ad9"
 					(reference "C330")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 274.32 193.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb47c5a0-ed5e-4e9a-9387-7eb5e964eb99")
-		(property "Reference" "#PWR0167"
-			(at 274.32 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 274.32 198.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 274.32 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "46b71f7f-2aea-4f7b-b7e6-74a64c617a1f")
-		)
-		(instances
-			(project "Controller"
-				(path "/2c9e7a41-63e4-4339-89dd-991e772f7a19/6314d9d9-bf56-456f-978f-8fa96e5a8ad9"
-					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
