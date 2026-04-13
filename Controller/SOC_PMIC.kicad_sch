@@ -868,7 +868,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TPS6521907RHBR:TPS6521907RHBR"
+		(symbol "TPS6521907RHBR:TPS6521904RHBR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -877,8 +877,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 2.54 0)
+			(property "Reference" "U3"
+				(at 33.02 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -887,8 +887,8 @@
 					)
 				)
 			)
-			(property "Value" "TPS6521907RHBR"
-				(at 0 0 0)
+			(property "Value" "TPS6521904RHBR"
+				(at 33.02 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -932,16 +932,6 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "PTPS6521901RHBR"
 				(at 0 0 0)
 				(show_name no)
@@ -964,7 +954,7 @@
 					)
 				)
 			)
-			(symbol "TPS6521907RHBR_0_1"
+			(symbol "TPS6521904RHBR_0_1"
 				(pin unspecified line
 					(at 66.04 -86.36 180)
 					(length 5.08)
@@ -1560,7 +1550,7 @@
 					)
 				)
 			)
-			(symbol "TPS6521907RHBR_1_1"
+			(symbol "TPS6521904RHBR_1_1"
 				(rectangle
 					(start 5.08 5.08)
 					(end 60.96 -97.79)
@@ -1988,16 +1978,6 @@
 			)
 		)
 		(uuid "4486299b-d422-4b0b-a34c-f805f63b9543")
-	)
-	(text "Part used actually TPS6521904 not 07. TODO: Update symbol part#"
-		(exclude_from_sim no)
-		(at 50.546 158.496 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "67d13cf6-8025-4263-b1e8-d965513e5796")
 	)
 	(junction
 		(at 295.91 151.13)
@@ -9263,7 +9243,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TPS6521907RHBR:TPS6521907RHBR")
+		(lib_id "TPS6521907RHBR:TPS6521904RHBR")
 		(at 107.95 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -9284,7 +9264,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS6521907RHBR"
+		(property "Value" "TPS6521904RHBR"
 			(at 140.97 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)

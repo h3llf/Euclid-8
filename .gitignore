@@ -5,6 +5,7 @@
 Datasheets/
 HW REF/
 .history/
+.history_trim/
 
 # Temporary files
 *.000
