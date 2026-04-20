@@ -8661,6 +8661,14 @@
 		)
 		(uuid "ff1e1d87-6575-418a-8575-b8807fa91ad0")
 	)
+	(image
+		(at 397.51 53.34)
+		(uuid "431eafcd-6e6c-407f-9a54-bc1a59bfd323")
+		(data "iVBORw0KGgoAAAANSUhEUgAAAOoAAAAfCAYAAADpy1HkAAAABHNCSVQICAgIfAhkiAAAADNJREFU"
+			"eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALg1xdwABG3R+eAAA"
+			"AABJRU5ErkJggg=="
+		)
+	)
 	(table
 		(column_count 4)
 		(border
@@ -8753,7 +8761,7 @@
 				)
 				(uuid "47730f36-7684-4699-939f-4ce9ce913503")
 			)
-			(table_cell "1"
+			(table_cell "40"
 				(exclude_from_sim no)
 				(at 337.82 27.94 0)
 				(size 5.08 2.54)
@@ -8804,7 +8812,7 @@
 				)
 				(uuid "4fbfb7e8-413c-49e3-872c-2ed5cca95447")
 			)
-			(table_cell "21"
+			(table_cell "20"
 				(exclude_from_sim no)
 				(at 381 27.94 0)
 				(size 5.08 2.54)
@@ -8821,7 +8829,7 @@
 				)
 				(uuid "6f33067a-ea0a-4375-9eb9-c7718d7e5e1b")
 			)
-			(table_cell "2"
+			(table_cell "39"
 				(exclude_from_sim no)
 				(at 337.82 30.48 0)
 				(size 5.08 2.54)
@@ -8872,7 +8880,7 @@
 				)
 				(uuid "7156a5e7-3c91-4f89-be70-53d7f51f0fdd")
 			)
-			(table_cell "22"
+			(table_cell "19"
 				(exclude_from_sim no)
 				(at 381 30.48 0)
 				(size 5.08 2.54)
@@ -8889,7 +8897,7 @@
 				)
 				(uuid "f032a0d4-c366-4f46-9e2a-8b850a39ef91")
 			)
-			(table_cell "3"
+			(table_cell "38"
 				(exclude_from_sim no)
 				(at 337.82 33.02 0)
 				(size 5.08 2.54)
@@ -8940,7 +8948,7 @@
 				)
 				(uuid "ad446308-83ae-4389-add8-6e7798448e57")
 			)
-			(table_cell "23"
+			(table_cell "18"
 				(exclude_from_sim no)
 				(at 381 33.02 0)
 				(size 5.08 2.54)
@@ -8957,7 +8965,7 @@
 				)
 				(uuid "b592dd6d-1931-4981-8ee4-9a48b185beb3")
 			)
-			(table_cell "4"
+			(table_cell "37"
 				(exclude_from_sim no)
 				(at 337.82 35.56 0)
 				(size 5.08 2.54)
@@ -9008,7 +9016,7 @@
 				)
 				(uuid "8a3d2bcf-6551-4b21-bd06-85d671e1570e")
 			)
-			(table_cell "24"
+			(table_cell "17"
 				(exclude_from_sim no)
 				(at 381 35.56 0)
 				(size 5.08 2.54)
@@ -9025,7 +9033,7 @@
 				)
 				(uuid "de96c64f-0825-44e8-bc66-6b799b024cee")
 			)
-			(table_cell "5"
+			(table_cell "36"
 				(exclude_from_sim no)
 				(at 337.82 38.1 0)
 				(size 5.08 2.54)
@@ -9076,7 +9084,7 @@
 				)
 				(uuid "61abcf39-ead0-4acc-bd24-7a8f95ea764a")
 			)
-			(table_cell "25"
+			(table_cell "16"
 				(exclude_from_sim no)
 				(at 381 38.1 0)
 				(size 5.08 2.54)
@@ -9093,7 +9101,7 @@
 				)
 				(uuid "8c2f3722-f81e-4482-ac4b-fd1450925ce3")
 			)
-			(table_cell "6"
+			(table_cell "35"
 				(exclude_from_sim no)
 				(at 337.82 40.64 0)
 				(size 5.08 2.54)
@@ -9144,7 +9152,7 @@
 				)
 				(uuid "0226f603-137e-4b25-9cd7-94731fabc327")
 			)
-			(table_cell "26"
+			(table_cell "15"
 				(exclude_from_sim no)
 				(at 381 40.64 0)
 				(size 5.08 2.54)
@@ -9161,7 +9169,7 @@
 				)
 				(uuid "8cf9f1c3-16f2-444c-8a0f-b63c8864a514")
 			)
-			(table_cell "7"
+			(table_cell "34"
 				(exclude_from_sim no)
 				(at 337.82 43.18 0)
 				(size 5.08 2.54)
@@ -9212,7 +9220,7 @@
 				)
 				(uuid "36a47d3f-9f42-48db-9cfc-156afa3157d2")
 			)
-			(table_cell "27"
+			(table_cell "14"
 				(exclude_from_sim no)
 				(at 381 43.18 0)
 				(size 5.08 2.54)
@@ -9229,7 +9237,7 @@
 				)
 				(uuid "c5e44e44-3ed9-4315-b3ba-588cf5fea100")
 			)
-			(table_cell "8"
+			(table_cell "33"
 				(exclude_from_sim no)
 				(at 337.82 45.72 0)
 				(size 5.08 2.54)
@@ -9280,7 +9288,7 @@
 				)
 				(uuid "410b4d81-9c22-4d88-9db7-a567bb1da48d")
 			)
-			(table_cell "28"
+			(table_cell "13"
 				(exclude_from_sim no)
 				(at 381 45.72 0)
 				(size 5.08 2.54)
@@ -9297,7 +9305,7 @@
 				)
 				(uuid "b8ded9f8-d4b7-4220-83af-6ed25ae4b535")
 			)
-			(table_cell "9"
+			(table_cell "32"
 				(exclude_from_sim no)
 				(at 337.82 48.26 0)
 				(size 5.08 2.54)
@@ -9331,7 +9339,7 @@
 				)
 				(uuid "e845f4a3-a7e6-450a-8fe8-938471101523")
 			)
-			(table_cell "GND"
+			(table_cell "+3.3V"
 				(exclude_from_sim no)
 				(at 361.95 48.26 0)
 				(size 19.05 2.54)
@@ -9348,7 +9356,7 @@
 				)
 				(uuid "6eb3c7d7-a5ec-45dd-b6d8-6c1e707ba5b3")
 			)
-			(table_cell "29"
+			(table_cell "12"
 				(exclude_from_sim no)
 				(at 381 48.26 0)
 				(size 5.08 2.54)
@@ -9365,7 +9373,7 @@
 				)
 				(uuid "ab049e09-73ba-4de6-b81a-b0616f233123")
 			)
-			(table_cell "10"
+			(table_cell "31"
 				(exclude_from_sim no)
 				(at 337.82 50.8 0)
 				(size 5.08 2.54)
@@ -9382,7 +9390,7 @@
 				)
 				(uuid "88b972f0-b8e6-4faf-8424-7b13a1886e27")
 			)
-			(table_cell "+3.3V"
+			(table_cell "+5V"
 				(exclude_from_sim no)
 				(at 342.9 50.8 0)
 				(size 19.05 2.54)
@@ -9399,7 +9407,7 @@
 				)
 				(uuid "bdb2c178-0138-4f1f-9b83-96da93fa4f24")
 			)
-			(table_cell "GND"
+			(table_cell "+5V"
 				(exclude_from_sim no)
 				(at 361.95 50.8 0)
 				(size 19.05 2.54)
@@ -9416,7 +9424,7 @@
 				)
 				(uuid "ed2a5a6a-0205-4c7f-902b-1628e16d19d3")
 			)
-			(table_cell "30"
+			(table_cell "11"
 				(exclude_from_sim no)
 				(at 381 50.8 0)
 				(size 5.08 2.54)
@@ -9433,7 +9441,7 @@
 				)
 				(uuid "c6dbf1fd-d481-4039-80c6-127cbf6d6b9f")
 			)
-			(table_cell "11"
+			(table_cell "30"
 				(exclude_from_sim no)
 				(at 337.82 53.34 0)
 				(size 5.08 2.54)
@@ -9450,7 +9458,7 @@
 				)
 				(uuid "ddd3412c-4959-4e2d-a2e8-b3d42d10a23b")
 			)
-			(table_cell "+12V"
+			(table_cell "GND"
 				(exclude_from_sim no)
 				(at 342.9 53.34 0)
 				(size 19.05 2.54)
@@ -9467,7 +9475,7 @@
 				)
 				(uuid "6d5310f8-a772-4753-8ea6-8d3f3f14ee58")
 			)
-			(table_cell "+5V"
+			(table_cell "GND"
 				(exclude_from_sim no)
 				(at 361.95 53.34 0)
 				(size 19.05 2.54)
@@ -9484,7 +9492,7 @@
 				)
 				(uuid "0c1517b5-ad94-416c-9ce1-9f578276fc31")
 			)
-			(table_cell "31"
+			(table_cell "10"
 				(exclude_from_sim no)
 				(at 381 53.34 0)
 				(size 5.08 2.54)
@@ -9501,7 +9509,7 @@
 				)
 				(uuid "7dbecb38-e627-4cd3-bf4f-2f1e8c4be525")
 			)
-			(table_cell "12"
+			(table_cell "29"
 				(exclude_from_sim no)
 				(at 337.82 55.88 0)
 				(size 5.08 2.54)
@@ -9535,7 +9543,7 @@
 				)
 				(uuid "d13e1f0e-525c-4878-ad14-7e3ae42997f5")
 			)
-			(table_cell "+5V"
+			(table_cell "+12V"
 				(exclude_from_sim no)
 				(at 361.95 55.88 0)
 				(size 19.05 2.54)
@@ -9552,7 +9560,7 @@
 				)
 				(uuid "13457830-f5ea-42fc-b804-3fe00a987fa4")
 			)
-			(table_cell "32"
+			(table_cell "9"
 				(exclude_from_sim no)
 				(at 381 55.88 0)
 				(size 5.08 2.54)
@@ -9569,7 +9577,7 @@
 				)
 				(uuid "e53463b9-7a81-49c8-a143-ddf1c73a9914")
 			)
-			(table_cell "13"
+			(table_cell "28"
 				(exclude_from_sim no)
 				(at 337.82 58.42 0)
 				(size 5.08 2.54)
@@ -9620,7 +9628,7 @@
 				)
 				(uuid "f7d7e1cf-5307-4eb1-8744-9373aa599386")
 			)
-			(table_cell "33"
+			(table_cell "8"
 				(exclude_from_sim no)
 				(at 381 58.42 0)
 				(size 5.08 2.54)
@@ -9637,7 +9645,7 @@
 				)
 				(uuid "0754b3a9-eb0b-4b92-a580-4cfccc922737")
 			)
-			(table_cell "14"
+			(table_cell "27"
 				(exclude_from_sim no)
 				(at 337.82 60.96 0)
 				(size 5.08 2.54)
@@ -9688,7 +9696,7 @@
 				)
 				(uuid "1a7e8814-a7c1-4e1d-bccf-fa109d7a797d")
 			)
-			(table_cell "34"
+			(table_cell "7"
 				(exclude_from_sim no)
 				(at 381 60.96 0)
 				(size 5.08 2.54)
@@ -9705,7 +9713,7 @@
 				)
 				(uuid "6fb7189c-1a36-4c8b-97f1-48baf93b49b8")
 			)
-			(table_cell "15"
+			(table_cell "26"
 				(exclude_from_sim no)
 				(at 337.82 63.5 0)
 				(size 5.08 2.54)
@@ -9756,7 +9764,7 @@
 				)
 				(uuid "39a5d6a8-a4ba-47d4-9634-04389b6293c8")
 			)
-			(table_cell "35"
+			(table_cell "6"
 				(exclude_from_sim no)
 				(at 381 63.5 0)
 				(size 5.08 2.54)
@@ -9773,7 +9781,7 @@
 				)
 				(uuid "830a4bfa-2da9-405c-af32-8346532d80c0")
 			)
-			(table_cell "16"
+			(table_cell "25"
 				(exclude_from_sim no)
 				(at 337.82 66.04 0)
 				(size 5.08 2.54)
@@ -9824,7 +9832,7 @@
 				)
 				(uuid "e5ba8779-976d-4ce4-9a0e-b5018a6d92f7")
 			)
-			(table_cell "36"
+			(table_cell "5"
 				(exclude_from_sim no)
 				(at 381 66.04 0)
 				(size 5.08 2.54)
@@ -9841,7 +9849,7 @@
 				)
 				(uuid "641579a0-863e-4015-a8aa-8887699cc61b")
 			)
-			(table_cell "17"
+			(table_cell "24"
 				(exclude_from_sim no)
 				(at 337.82 68.58 0)
 				(size 5.08 2.54)
@@ -9892,7 +9900,7 @@
 				)
 				(uuid "807247c0-3204-4db8-bcf2-5737d27cd01a")
 			)
-			(table_cell "37"
+			(table_cell "4"
 				(exclude_from_sim no)
 				(at 381 68.58 0)
 				(size 5.08 2.54)
@@ -9909,7 +9917,7 @@
 				)
 				(uuid "11cef26d-4c50-4a4b-98d2-8a1161daa7a0")
 			)
-			(table_cell "18"
+			(table_cell "23"
 				(exclude_from_sim no)
 				(at 337.82 71.12 0)
 				(size 5.08 2.54)
@@ -9960,7 +9968,7 @@
 				)
 				(uuid "02ff7e80-53d1-45b6-8513-09ac426afae9")
 			)
-			(table_cell "38"
+			(table_cell "3"
 				(exclude_from_sim no)
 				(at 381 71.12 0)
 				(size 5.08 2.54)
@@ -9977,7 +9985,7 @@
 				)
 				(uuid "54145b5d-02f4-49d0-9757-d157d2049da6")
 			)
-			(table_cell "19"
+			(table_cell "22"
 				(exclude_from_sim no)
 				(at 337.82 73.66 0)
 				(size 5.08 2.54)
@@ -10028,7 +10036,7 @@
 				)
 				(uuid "55fffb68-240c-4ae8-b5b0-dbabc600dbf8")
 			)
-			(table_cell "39"
+			(table_cell "2"
 				(exclude_from_sim no)
 				(at 381 73.66 0)
 				(size 5.08 2.54)
@@ -10045,7 +10053,7 @@
 				)
 				(uuid "0d3c776f-fc31-4c67-87de-b50f8e1f4e1c")
 			)
-			(table_cell "20"
+			(table_cell "21"
 				(exclude_from_sim no)
 				(at 337.82 76.2 0)
 				(size 5.08 2.54)
@@ -10096,7 +10104,7 @@
 				)
 				(uuid "98179fc3-2655-4fc7-a8a9-3b5cc7b5dcd9")
 			)
-			(table_cell "40"
+			(table_cell "1"
 				(exclude_from_sim no)
 				(at 381 76.2 0)
 				(size 5.08 2.54)

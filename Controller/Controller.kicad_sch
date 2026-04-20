@@ -1227,6 +1227,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Use LMK1C1102 when SOC_Ethernet2 depopulated,\nY2 becomes NC"
+		(exclude_from_sim no)
+		(at 60.452 127.254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "afaee41b-27b7-4c87-8402-17dcc455d09c")
+	)
 	(junction
 		(at 58.42 191.77)
 		(diameter 0)
@@ -1240,7 +1250,7 @@
 		(uuid "1cd670c3-6db9-4615-a951-8dc397586132")
 	)
 	(junction
-		(at 31.75 100.33)
+		(at 31.75 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "247d49f5-91b9-4ecb-9798-6cee1f422c06")
@@ -1270,12 +1280,12 @@
 		(uuid "a4cc0868-5f89-4812-a7d7-ddd847793e69")
 	)
 	(no_connect
-		(at 78.74 113.03)
+		(at 78.74 156.21)
 		(uuid "0d458ec1-43ac-47f7-b150-e37dbd557e75")
 	)
 	(wire
 		(pts
-			(xy 31.75 96.52) (xy 31.75 100.33)
+			(xy 31.75 139.7) (xy 31.75 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1285,7 +1295,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 100.33) (xy 43.18 100.33)
+			(xy 31.75 143.51) (xy 43.18 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1365,7 +1375,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 100.33) (xy 78.74 100.33)
+			(xy 80.01 143.51) (xy 78.74 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1435,7 +1445,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 104.14) (xy 78.74 104.14)
+			(xy 80.01 147.32) (xy 78.74 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1465,7 +1475,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 101.6) (xy 31.75 100.33)
+			(xy 31.75 144.78) (xy 31.75 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1545,7 +1555,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 120.65) (xy 81.28 118.11)
+			(xy 81.28 163.83) (xy 81.28 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1565,7 +1575,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 107.95) (xy 78.74 107.95)
+			(xy 80.01 151.13) (xy 78.74 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1575,7 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 118.11) (xy 27.94 118.11)
+			(xy 43.18 161.29) (xy 27.94 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1625,7 +1635,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 118.11) (xy 78.74 118.11)
+			(xy 81.28 161.29) (xy 78.74 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1645,7 +1655,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 109.22) (xy 43.18 109.22)
+			(xy 31.75 152.4) (xy 43.18 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1654,7 +1664,7 @@
 		(uuid "f246ce93-4a8e-488e-b537-df9aaba4bc5c")
 	)
 	(label "CLK_OUT_25M"
-		(at 27.94 118.11 0)
+		(at 27.94 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1675,7 +1685,7 @@
 	)
 	(global_label "ETH1_CLK"
 		(shape input)
-		(at 80.01 104.14 0)
+		(at 80.01 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1685,7 +1695,7 @@
 		)
 		(uuid "0332eb99-5d1f-4aea-ac5d-5af0a2eb7873")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.1875 104.14 0)
+			(at 92.1875 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1699,7 +1709,7 @@
 	)
 	(global_label "SOC_CLK"
 		(shape input)
-		(at 80.01 100.33 0)
+		(at 80.01 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1709,7 +1719,7 @@
 		)
 		(uuid "1a4a82d7-d922-4b73-a979-bfaddd5b07f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.3409 100.33 0)
+			(at 91.3409 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1723,7 +1733,7 @@
 	)
 	(global_label "ETH2_CLK"
 		(shape input)
-		(at 80.01 107.95 0)
+		(at 80.01 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1733,7 +1743,7 @@
 		)
 		(uuid "ff2c50fb-4c15-42d7-90ff-38db2b5f79da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.1875 107.95 0)
+			(at 92.1875 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2552,7 +2562,7 @@
 	)
 	(symbol
 		(lib_id "IC:LMK1C1103")
-		(at 60.96 109.22 0)
+		(at 60.96 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2563,7 +2573,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c3deaa0-0bb1-434a-a2be-da9a557d4d7d")
 		(property "Reference" "U35"
-			(at 60.96 91.44 0)
+			(at 60.96 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2573,7 +2583,7 @@
 			)
 		)
 		(property "Value" "LMK1C1103 PW"
-			(at 60.96 93.98 0)
+			(at 60.96 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2583,7 +2593,7 @@
 			)
 		)
 		(property "Footprint" "Libs:LMK1C110X TSSOP-8"
-			(at 60.96 109.22 0)
+			(at 60.96 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2594,7 +2604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 109.22 0)
+			(at 60.96 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2605,7 +2615,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 109.22 0)
+			(at 60.96 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3133,7 +3143,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 31.75 96.52 0)
+		(at 31.75 139.7 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3144,7 +3154,7 @@
 		(dnp no)
 		(uuid "9f0ba4d9-f41e-499e-a110-889df45993e8")
 		(property "Reference" "#PWR0371"
-			(at 31.75 100.33 0)
+			(at 31.75 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3155,7 +3165,7 @@
 			)
 		)
 		(property "Value" "VCC_1V8_CLK"
-			(at 29.21 95.2499 0)
+			(at 29.21 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3166,7 +3176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 96.52 0)
+			(at 31.75 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3177,7 +3187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 96.52 0)
+			(at 31.75 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3188,7 +3198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 31.75 96.52 0)
+			(at 31.75 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3212,7 +3222,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 120.65 0)
+		(at 81.28 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3223,7 +3233,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab5657d8-e872-4e59-a3eb-ed383e47ffda")
 		(property "Reference" "#PWR0372"
-			(at 81.28 127 0)
+			(at 81.28 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3234,7 +3244,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 125.73 0)
+			(at 81.28 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3244,7 +3254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 120.65 0)
+			(at 81.28 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3255,7 +3265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 120.65 0)
+			(at 81.28 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3266,7 +3276,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 120.65 0)
+			(at 81.28 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3290,7 +3300,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 31.75 105.41 0)
+		(at 31.75 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3301,7 +3311,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfee6488-890b-40c1-bd2e-200d1532c3fb")
 		(property "Reference" "R157"
-			(at 34.29 104.1399 0)
+			(at 34.29 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3312,7 +3322,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 34.29 106.6799 0)
+			(at 34.29 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3323,7 +3333,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 29.972 105.41 90)
+			(at 29.972 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3334,7 +3344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 105.41 0)
+			(at 31.75 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3345,7 +3355,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 31.75 105.41 0)
+			(at 31.75 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
