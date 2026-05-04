@@ -18360,10 +18360,6 @@
 		(uuid "48df385e-7781-44dc-9767-89d049a88d80")
 	)
 	(no_connect
-		(at 287.02 27.94)
-		(uuid "51710d0d-496b-4b31-8699-3d7cee031d9c")
-	)
-	(no_connect
 		(at 287.02 109.22)
 		(uuid "545e9437-1a5a-48ca-8db7-dd01db664dba")
 	)
@@ -19008,6 +19004,16 @@
 			(type default)
 		)
 		(uuid "302771ca-80ea-4bdb-bafa-b53f81e380eb")
+	)
+	(wire
+		(pts
+			(xy 267.97 27.94) (xy 267.97 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a9a174-b761-454e-b7de-1787faf6dac3")
 	)
 	(wire
 		(pts
@@ -20106,6 +20112,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 27.94) (xy 287.02 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e9d2f0-d792-462d-bd62-80661ff4e08d")
+	)
+	(wire
+		(pts
 			(xy 200.66 35.56) (xy 200.66 38.1)
 		)
 		(stroke
@@ -20943,6 +20959,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 39.37) (xy 80.01 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8213192-6841-46a7-b35d-cce728885d54")
+	)
+	(wire
+		(pts
 			(xy 373.38 80.01) (xy 368.3 80.01)
 		)
 		(stroke
@@ -21562,6 +21588,16 @@
 			(justify left bottom)
 		)
 		(uuid "433b49c5-62a1-44ef-af91-de9a4daf92e6")
+	)
+	(label "MCU__ERRORN"
+		(at 271.78 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4aea22db-3d26-4870-9639-8b888b9d25e1")
 	)
 	(label "BOOTMODE_5"
 		(at 153.67 25.4 0)
@@ -22546,30 +22582,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "PRU0_GPO10"
-		(shape input)
-		(at 85.09 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2dc238cf-e08e-4ee3-88ba-18dea2ff5934")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.4123 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -24215,6 +24227,30 @@
 			)
 		)
 	)
+	(global_label "PMIC_INT_N"
+		(shape input)
+		(at 85.09 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b378e8b-a6ed-430c-8a7c-14121b725a44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.84 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "MCU_GPIO_1"
 		(shape input)
 		(at 373.38 97.79 0)
@@ -24640,6 +24676,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "HDMI_INT"
+		(shape input)
+		(at 85.09 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5964443-9867-4db2-a448-625b1415df23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.6024 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -35225,6 +35285,85 @@
 			(project "Controller"
 				(path "/2c9e7a41-63e4-4339-89dd-991e772f7a19/4f9a8529-8434-4a63-acea-238523d9a9d8"
 					(reference "#PWR0626")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 267.97 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7c6a884-371d-49bf-b247-b41cea515feb")
+		(property "Reference" "TP35"
+			(at 270.51 20.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 270.51 23.3679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 273.05 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 267.97 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8caf81e4-2974-43bc-8c28-c815dcbd7da7")
+		)
+		(instances
+			(project "Controller"
+				(path "/2c9e7a41-63e4-4339-89dd-991e772f7a19/4f9a8529-8434-4a63-acea-238523d9a9d8"
+					(reference "TP35")
 					(unit 1)
 				)
 			)
